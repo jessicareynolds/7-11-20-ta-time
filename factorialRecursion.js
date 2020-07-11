@@ -3,7 +3,7 @@
 function recursiveSumAll(num) {
 
   // Checkts to see if the value in number is equal to 1, if the condition is true it returns 1
-  if (num === 1) return 1
+  if (num === 1) return 1;
 
   // Returns the the value of num times the returned value from recursiveSumAll(n - 1)
   return num * recursiveSumAll(num - 1);

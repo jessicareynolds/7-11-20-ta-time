@@ -11,9 +11,9 @@ function listConcatForward(numList) {
   };
 
   // Declares a constant called numToStr to be equal to the value stored in the first position of numList
-  const numToStr = numList[0]
+  const numToStr = numList[0];
   // Takes the value stored in the first position of numList and removes it
-  numList.shift()
+  numList.shift();
 
   /*
     A way we could combine the previous two commands, on lines 14 and 16, is by doing this:

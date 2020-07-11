@@ -3,7 +3,7 @@
 function forHelp(list) {
 
   // Declare an empty string to concat the passed in list to.
-  let phrase = ''
+  let phrase = '';
 
   // for (initiate looping variable; condition to keep looping; looping variable incremenet)
   // With the condition to keep looping, in regards to an array, we don't want to use '<=' (IE: i <= list.length)
@@ -16,7 +16,7 @@ function forHelp(list) {
 
       // If the above condition is met, adds the value from list at the zero index to 
       // the variable called phrase without a space.
-      phrase = phrase + list[i]
+      phrase = phrase + list[i];
     } else {
 
       // If the above if statment, line 14, is false (not in the first loop through),
@@ -30,7 +30,7 @@ function forHelp(list) {
 }
 
 // Outputs the returned value from the function forHelp, with the passed in array, to the console
-console.log(forHelp(['I', 'hate', 'for', 'loops']))
+console.log(forHelp(['I', 'hate', 'for', 'loops']));
 
 /* Some other options to logging the result to the console are:
 

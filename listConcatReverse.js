@@ -14,9 +14,9 @@ function listConcatReverse(numList) {
   // What numList[numList - 1] is saying is to take the value in numList at the indexed position of
   // the legnth of numList and subtract one.
   // What that translates to is to take the value at the last position of the array.
-  const numToStr = numList[numList.length - 1]
+  const numToStr = numList[numList.length - 1];
   // Takes the value stored in the last position of numList and removes it
-  numList.pop()
+  numList.pop();
 
   /*
     A way we could combine the previous two commands, on lines 14 and 16, is by doing this:
@@ -73,8 +73,8 @@ function listConcatReverse(numList) {
     return '';
   };
 
-  const numToStr = numList[0]
-  numList.shift()
+  const numToStr = numList[0];
+  numList.shift();
 
   // All you need to change would be switching what value is to the left of the .concat and
   // whats inside the parenthesis of the .concat.  (Shown below).
